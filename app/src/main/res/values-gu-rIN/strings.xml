@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="razor_pay_test_api_key">rzp_test_tzFDnjq19Rsqb1</string>
+    <string name="razor_pay_live_api_key"></string>
+
+    <string name="razor_pay_api_key">@string/razor_pay_test_api_key</string>
+
+    <string name="app_name">શેરબીમેટ</string>
+
+    <string name="navigation_drawer_open">નેવિગેશન ડ્રોઅર ખોલો</string>
+    <string name="navigation_drawer_close">નેવિગેશન ડ્રોઅર બંધ કરો</string>
+    <string name="nav_header_title">એન્ડ્રોઇડ સ્ટુડિયો</string>
+    <string name="nav_header_subtitle">એન્ડ્રોઇડ.સ્ટુડિયો@એન્ડ્રોઇડ.કોમ</string>
+    <string name="nav_header_desc">નેવીગેશન હેડર</string>
+    <string name="action_settings">સેટિંગ્સ</string>
+    <string name="title_activity_home">ડેશબોર્ડ</string>
+
+    <string name="menu_home">હોમ</string>
+    <string name="menu_gallery">ગેલેરી</string>
+    <string name="menu_slideshow">સ્લાઇડ શો</string>
+    <string name="menu_tools">ટૂલ્સ</string>
+    <string name="menu_share">શેર</string>
+    <string name="menu_send">સેન્ડ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">હેલો બ્લેન્ક ફ્રેગમેન્ટ</string>
+
+    <!-- splash text -->
+    <string name="no_internet_connection_splash">ઇન્ટરનેટ કનેક્શન ના મળ્યું!</string>
+    <string name="retry_button_splash">ફરી પ્રયાસ કરો</string>
+
+    <!-- login text -->
+    <string name="login_title">લોગ ઇન</string>
+    <string name="login_hello">નમસ્તે,</string>
+    <string name="login_description">કૃપા કરી નીચે તમારો મોબાઇલ નંબર દાખલ કરો કે જેના પર તમને ઓટીપી પ્રાપ્ત થશે.</string>
+    <string name="login_country_code_hint">+૯૧</string>
+    <string name="login_mobile_number_hint">મોબાઇલ નંબર</string>
+    <string name="login_button_text">ઓટીપી માટે વિનંતી કરો</string>
+    <string name="login_mobile_empty_validation_error">મહેરબાની કરીને મોબાઇલ નંબર પ્રદાન કરો</string>
+    <string name="login_mobile_invalid_validation_error">તમારો મોબાઇલ નંબર ૧૦ અંક લાંબો હોવો જોઈએ</string>
+    <string name="login_something_went_wrong_toast">કંઈક ખોટું થયું છે, કૃપા કરીને પછીથી ફરી પ્રયાસ કરો!</string>
+
+    <!-- login verification text -->
+    <string name="login_otp_verification_title">ઓ.ટી.પી. ચકાસણી</string>
+    <string name="login_otp_verification_description">કૃપા કરીને ચાલુ રાખવા માટે અમે એસએમએસ દ્વારા નીચેના મોબાઇલ નંબર પર મોકલ્યો છે તે ૬ અંકનો કોડ દાખલ કરો.</string>
+    <string name="login_otp_verification_all_fields_required">ઓટીપીના બધા ક્ષેત્રોને ચકાસવા માટે જરૂરી છે. કૃપા કરીને બધા ક્ષેત્રો દાખલ કરો અને ફરીથી પ્રયાસ કરો!</string>
+    <string name="login_otp_verification_no_intnernet_toast">કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+    <string name="login_otp_verification_resend_otp_in">ઓટીપી ફરી પ્રાપ્ત કરો</string>
+    <string name="login_otp_verification_did_not_received_otp">શું ઓટીપી પ્રાપ્ત ના થયો? </string>
+    <string name="login_otp_verification_resend_otp">ઓટીપી પ્રાપ્ત કરો</string>
+    <string name="login_otp_verification_button">ઓટીપી અને લોગ ઇન ચકાસો</string>
+
+
+    <!-- success message text -->
+    <string name="success_title">સફળતા !</string>
+
+
+    <!-- no internet text -->
+    <string name="no_internet_title">ઓહ...!!</string>
+    <string name="no_internet_message">કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+    <string name="no_internet_retry_button">ફરી પ્રયાસ કરો</string>
+
+    <!-- error text -->
+    <string name="error_title">ઓહ...!!</string>
+
+
+    <!-- no search result text -->
+    <string name="no_search_result_title">અરે...રે</string>
+
+
+    <!-- home text -->
+    <string name="home_intent_title_for_booking">મારી બુકિંગ સેવાઓ</string>
+    <string name="home_intent_title_for_request">મારી વિનંતી સેવાઓ</string>
+    <string name="home_no_internet_connection_toast">કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+    <string name="home_logout_title">ખાતરી કરો</string>
+    <string name="home_logout_description">શું તમે ખરેખર શેરબીમેટથી લૉગ આઉટ કરવા માંગો છો?</string>
+    <string name="home_logout_yes_button">હા</string>
+    <string name="home_logout_no_button">ના</string>
+    <string name="home_something_went_wrong_toast">કંઈક ખોટું થયું છે!</string>
+    <string name="home_booking_button">બુકિંગ</string>
+    <string name="home_request_button">વિનંતી</string>
+
+    <!-- navigation text -->
+    <string name="nav_service_bookings">મારી બુકિંગ સેવાઓ</string>
+    <string name="nav_service_requests">મારી વિનંતી સેવાઓ</string>
+    <string name="nav_chat">અમારી સાથે ચેટ કરો</string>
+    <string name="nav_profile">પ્રોફાઇલ</string>
+    <string name="nav_about">શેરબીમેટ વિશે</string>
+    <string name="nav_logout">લૉગ આઉટ</string>
+
+    <!-- sub services text -->
+    <string name="sub_category_no_internet">કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+
+    <!-- package details text -->
+    <string name="package_details_description_title">પેકેજ ડિટેઈલ્સ</string>
+    <string name="package_details_confirm_booking_button_title">બુકિંગની પુષ્ટિ કરો</string>
+
+    <!--Confirm Booking-->
+    <string name="add_booking_request_confirm_booking_title">નવી બુકિંગ સેવાની પુષ્ટિ</string>
+    <string name="add_booking_request_package_details">પેકેજ ડિટેઈલ્સ</string>
+    <string name="add_booking_booking_date_input_text">સેવાની તારીખ</string>
+    <string name="add_booking_booking_time_input_text">સેવાનો સમય</string>
+    <string name="add_booking_request_payment_method">ચુકવણી પદ્ધતિ</string>
+    <string name="add_booking_request_how_do_you_want_to_pay">તમે કેવી રીતે ચૂકવણી કરવા માંગો છો?</string>
+    <string name="add_booking_request_payment_method_select_payment_method_text">ચુકવણીની પદ્ધતિ પસંદ કરો</string>
+    <string name="add_booking_request_payment_method_change_payment_method_text">ચુકવણીની પદ્ધતિ બદલો</string>
+    <string name="add_booking_booking_address_text">સરનામું</string>
+    <string name="add_booking_booking_message_text">સંદેશ</string>
+    <string name="add_booking_booking_button_text">અત્યારે જ બુક કરો</string>
+    <string name="add_booking_validation_date_error_text">કૃપા કરીને સેવાની તારીખ પ્રદાન કરો</string>
+    <string name="add_booking_validation_time_error_text">કૃપા કરીને સેવાની સમય પ્રદાન કરો</string>
+    <string name="add_booking_validation_address_error_text">કૃપા કરી કોઈ સેવા સરનામું પ્રદાન કરો</string>
+    <string name="add_booking_validation_message_error_text">કૃપા કરીને કોઈ સંદેશ પ્રદાન કરો</string>
+    <string name="add_booking_validation_package_error_text">કૃપા કરીને કોઈ પેકેજ પ્રદાન કરો</string>
+    <string name="add_booking_validation_payment_method_error_text">કૃપા કરીને કોઈ ચુકવણીની પદ્ધતિ પસંદ કરો</string>
+    <string name="add_booking_razor_pay_error_text">ચુકવણી કરતી વખતે કંઈક ખોટું થયું!</string>
+
+    <!-- book request row text -->
+    <string name="my_booking_request_list_text">મારી સેવા વિનંતીઓ</string>
+
+
+    <!-- book worker text -->
+    <string name="book_worker_date_of_service_hint">સેવાની તારીખ</string>
+    <string name="book_worker_time_of_service_hint">સેવાનો સમય</string>
+    <string name="book_worker_address_hint">સરનામું</string>
+    <string name="book_worker_message_hint">સંદેશ</string>
+    <string name="book_worker_payable_service_amount_text">ચૂકવવાપાત્ર સેવા રકમ</string>
+    <string name="book_worker_confirm_request_button_text">વિનંતીની પુષ્ટિ કરો</string>
+    <string name="book_worker_confirm_booking_button_text">બુકિંગની પુષ્ટિ કરો</string>
+    <string name="book_worker_toolbar_title_for_request_text">નવી વિનંતી સેવા</string>
+    <string name="book_worker_toolbar_title_for_booking_text">નવી બુકિંગ સેવા</string>
+    <string name="book_worker_sub_title_for_request_text">નવી વિનંતી સેવા</string>
+    <string name="book_worker_sub_title_for_booking_text">નવી સેવા બુકિંગ માટે</string>
+    <string name="book_worker_no_internet_toast_text">કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+    <string name="book_worker_something_went_wrong_toast_text">નવી સેવા કરતી વખતે કંઈક ખોટું થયું! કૃપા કરીને થોડા સમય પછી ફરીથી પ્રયાસ કરો</string>
+    <string name="book_worker_valdation_date_error_text">કૃપા કરીને સેવાની તારીખ પ્રદાન કરો</string>
+    <string name="book_worker_valdation_time_error_text">કૃપા કરીને સેવાની તારીખ પ્રદાન કરો</string>
+    <string name="book_worker_valdation_empty_message_error_text">કૃપા કરીને કોઈ સંદેશ પ્રદાન કરો</string>
+    <string name="book_worker_valdation_empty_address_error_text">કૃપા કરી કોઈ સેવા સરનામું પ્રદાન કરો</string>
+    <string name="book_worker_network_error_text">નેટવર્ક ક્ષતિ!</string>
+    <string name="book_worker_no_connection_error_text">સર્વર સાથે કોઈ ઇન્ટરનેટ કનેક્શન નથી!</string>
+    <string name="book_worker_server_error_text">સર્વરથી ક્ષતિ!</string>
+    <string name="book_worker_connection_timeout_error_text">કનેક્શન સમયસમાપ્તિ ક્ષતિ!</string>
+    <string name="book_worker_error_text">ક્ષતિ!</string>
+    <string name="book_worker_intent_title_for_booking">મારી બુકિંગ સેવાઓ</string>
+    <string name="book_worker_intent_title_for_request">મારી વિનંતી સેવાઓ</string>
+
+
+    <!-- book request roe text -->
+    <string name="booking_request_list_row_service_details_text">સેવા વિગતો</string>
+    <string name="booking_request_list_row_service_id_text">સેવા આઈ.ડી.</string>
+    <string name="booking_request_list_row_service_scheduled_on_text">સેવા શેડ્યૂલ</string>
+    <string name="booking_request_list_row_service_of_text">સેવા</string>
+    <string name="booking_request_list_row_payment_method_text">ચુકવણી પદ્ધતિ</string>
+    <string name="booking_request_list_row_service_address_text">સેવાનું સરનામું</string>
+    <string name="booking_request_list_row_service_message_text">સેવાનો સંદેશ</string>
+    <string name="booking_request_list_row_payable_service_amount_text">ચૂકવવાપાત્ર સેવા રકમ</string>
+    <string name="booking_request_list_row_service_person_details_text">સેવાની વિગતો</string>
+    <string name="booking_request_list_row_service_person_name_text">નામ</string>
+    <string name="booking_request_list_row_service_person_gender_text">લિંગ</string>
+    <string name="booking_request_list_row_service_person_mobile_text">મોબાઇલ</string>
+    <string name="booking_request_list_row_service_person_email_text">ઇ-મેઇલ</string>
+    <string name="booking_request_list_row_service_cancel_reason_text">રદ કરવા માટેનું કારણ</string>
+    <string name="booking_request_list_row_rate_service_button_text">આ સેવાને રેટ કરો</string>
+    <string name="booking_request_list_row_service_review_details_text">સમીક્ષા વિગતો</string>
+    <string name="booking_request_list_row_service_review_details_rated_text">રેટેડ</string>
+    <string name="booking_request_list_row_service_review_message_text">સંદેશ</string>
+    <string name="booking_request_list_row_service_cancel_button_text">સેવા રદ કરો</string>
+    <string name="booking_request_list_no_internet_toast_text">કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+    <string name="booking_request_cancel_service_title_text">ખાતરી કરો</string>
+    <string name="booking_request_cancel_service_message_text">શું તમે ખરેખર આ સેવા રદ કરવા માંગો છો?</string>
+    <string name="booking_request_cancel_service_yes_button_text">હા</string>
+    <string name="booking_request_cancel_service_no_button_text">ના</string>
+
+
+
+    <!-- book request cancel dialog text -->
+    <string name="booking_request_cancel_dialog_title_text">સેવા રદ કરો</string>
+    <string name="booking_request_cancel_dialog_sub_title_text">કૃપા કરીને અમને જણાવો કે તમે તમારી સેવા કેમ રદ કરવા માંગો છો. આ સેવાને રદ કરવા પાછળ તમારું કારણ લખો.</string>
+    <string name="booking_request_cancel_dialog_cancel_reason_hint">રદ કરવાનું કારણ</string>
+    <string name="booking_request_cancel_dialog_cancel_reason_submit_button_text">સબમિટ કરો</string>
+    <string name="booking_request_cancel_dialog_cancel_reason_validation_error_text">કૃપા કરીને રદ કરવા માટેનું કારણ પ્રદાન કરો!</string>
+
+    <string name="cancel_service_network_error_text">નેટવર્ક ક્ષતિ!</string>
+    <string name="cancel_service_no_connection_error_text">સર્વર સાથે કોઈ ઇન્ટરનેટ કનેક્શન નથી!</string>
+    <string name="cancel_service_server_error_text">સર્વરથી ક્ષતિ!</string>
+    <string name="cancel_service_connection_timeout_error_text">કનેક્શન સમયસમાપ્તિ ક્ષતિ!</string>
+    <string name="cancel_service_error_text">ક્ષતિ!</string>
+
+
+    <!-- profile text -->
+    <string name="profile_toolbar_title_text">મારી પ્રોફાઈલ</string>
+    <string name="profile_first_name_hint">પ્રથમ નામ</string>
+    <string name="profile_middle_name_hint">મધ્ય નામ</string>
+    <string name="profile_last_name_hint">છેલ્લું નામ </string>
+    <string name="profile_email_hint">ઇમેઇલ</string>
+    <string name="profile_country_code_text">+૯૧</string>
+    <string name="profile_mobile_number_hint">મોબાઇલ નંબર</string>
+    <string name="profile_gender_text">લિંગ :</string>
+    <string name="profile_rb_male_text">પુરુષ</string>
+    <string name="profile_rb_female_text">સ્ત્રી</string>
+    <string name="profile_preferred_language_hint">પસંદગીની ભાષા</string>
+    <string name="profile_address_line_1_hint">સરનામાં લાઇન ૧</string>
+    <string name="profile_address_line_2_hint">સરનામાં લાઇન ૨</string>
+    <string name="profile_city_hint">શહેર</string>
+    <string name="profile_pincode_hint">પિનકોડ</string>
+    <string name="profile_save_profile_details_button_text">પ્રોફાઇલ વિગતો સાચવો</string>
+    <string name="profile_no_internet_toast_text">કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+    <string name="profile_address_line_2_validation_error_text">કૃપા કરી સરનામાં લાઇન ૨ પ્રદાન કરો</string>
+    <string name="profile_address_line_1_validation_error_text">કૃપા કરી સરનામાં લાઇન ૧ પ્રદાન કરો</string>
+    <string name="profile_pincode_validation_error_text">કૃપા કરી પિનકોડ પસંદ કરો</string>
+    <string name="profile_city_validation_error_text">કૃપા કરી શહેર પસંદ કરો</string>
+    <string name="profile_preferred_language_validation_error_text">કૃપા કરીને પસંદગીની ભાષા પસંદ કરો</string>
+    <string name="profile_email_not_valid_validation_error_text">કૃપા કરીને માન્ય ઇમેઇલ પ્રદાન કરો</string>
+    <string name="profile_email_empty_validation_error_text">કૃપા કરીને એક ઇમેઇલ પ્રદાન કરો</string>
+    <string name="profile_first_name_validation_error_text">કૃપા કરીને એક પ્રથમ નામ પ્રદાન કરો</string>
+    <string name="profile_middle_name_validation_error_text">કૃપા કરીને એક મધ્ય નામ પ્રદાન કરો</string>
+    <string name="profile_last_name_validation_error_text">કૃપા કરીને એક છેલ્લું નામ પ્રદાન કરો</string>
+
+    <string name="profile_picture_option_dialog_toolbar_title_text">એક વિકલ્પ પસંદ કરો</string>
+    <string name="profile_picture_option_dialog_gallery_text">ગેલેરીમાંથી છબી \nપસંદ કરો</string>
+    <string name="profile_picture_option_dialog_camera_text">કેમેરા ખોલો અને \nકેપ્ચર કરો</string>
+    <string name="profile_picture_option_dialog_button_text">વિકલ્પ પસંદ કરો અને આગળ વધો</string>
+
+    <string name="profile_something_went_wrong_toast_text">અરે..રે! કંઈક ખોટું થયું.</string>
+    <string name="profile_please_select_one_option_toast_text">ઓછામાં ઓછું એક વિકલ્પ પસંદ કરો!</string>
+    <string name="profile_something_went_wrong__try_again_toast_text">કંઈક ખોટું થયું. પછીથી ફરી પ્રયત્ન કરો!</string>
+    <string name="profile_capture_uri_not_found_toast_text">કેપ્ચર છબીની યુઆરઆઈ મળી નથી</string>
+    <string name="profile_city_selection_error_toast_text">અરે..રે! શહેરની પસંદગી કરતી વખતે કંઇક ખોટું થયું!</string>
+    <string name="profile_pincode_selection_error_toast_text">અરે..રે! પિનકોડની પસંદગી કરતી વખતે કંઇક ખોટું થયું!</string>
+    <string name="profile_preferred_language_selection_error_toast_text">અરે..રે! પસંદગીની ભાષાની પસંદગી કરતી વખતે કંઇક ખોટું થયું!</string>
+
+    <string name="profile_something_went_wrong_while_saving_profile_changes_toast_text">પ્રોફાઇલ ફેરફારો સાચવતી વખતે કંઈક ખોટું થયું! કૃપા કરીને થોડા સમય પછી ફરીથી પ્રયાસ કરો</string>
+
+    <!-- about text -->
+    <string name="about_no_internet_connection_toast">કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+    <string name="about_toolbar_title_text">શેરબીમેટ વિશે</string>
+
+    <!-- city text -->
+    <string name="city_toolbar_title_text">શહેર</string>
+    <string name="city_search_hint">શહેરના નામ દ્વારા શોધો</string>
+    <string name="city_something_went_wrong_message">કંઈક ખોટું થયું!</string>
+
+    <!-- pincode text -->
+    <string name="pincode_toolbar_title_text">પિનકોડ</string>
+    <string name="pincode_search_hint">પિનકોડ દ્વારા શોધો</string>
+    <string name="pincode_something_went_wrong_message">કંઈક ખોટું થયું!</string>
+
+    <!-- preferred language text -->
+    <string name="preferred_language_toolbar_title_text">પસંદગીની ભાષા</string>
+    <string name="preferred_language_search_hint">પસંદગીના ભાષાના નામ દ્વારા શોધો</string>
+    <string name="preferred_language_something_went_wrong_message">કંઈક ખોટું થયું!</string>
+
+    <!-- choose area text -->
+    <string name="choose_area_toolbar_title_text">તમારું ક્ષેત્ર પસંદ કરો</string>
+    <string name="choose_area_area_not_found_text">કંઈક ખોટું થયું!</string>
+
+    <!-- rate review text -->
+    <string name="rate_review_toolbar_title_text">રેટ અને સમીક્ષા સેવા</string>
+    <string name="rate_reviewing_service_as_text">તરીકે સેવાની સમીક્ષા કરી રહ્યા છો</string>
+    <string name="rate_reviewing_description_text">આ સેવા વિશે તમે શું વિચારો છો તે અન્ય લોકોને કહો.\nતમે તેની ભલામણ કરો છો, અને શા માટે?</string>
+    <string name="rate_review_hint">સમીક્ષા</string>
+    <string name="rate_submit_review_button_hint">સબમિટ કરો</string>
+    <string name="rate_no_internet_toast">Please તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને પછીથી ફરી પ્રયાસ કરો!</string>
+    <string name="rate_ratings_validation_error_text">કૃપા કરી માન્ય રેટિંગ્સ પ્રદાન કરો!</string>
+    <string name="rate_ratings_empty_validation_error_text">કૃપા કરીને સમીક્ષા સંદેશ પ્રદાન કરો!</string>
+
+
+    <string name="rate_network_error_text">નેટવર્ક ક્ષતિ!</string>
+    <string name="rate_no_connection_error_text">સર્વર સાથે કોઈ ઇન્ટરનેટ કનેક્શન નથી!</string>
+    <string name="rate_server_error_text">સર્વરથી ક્ષતિ!</string>
+    <string name="rate_connection_timeout_error_text">કનેક્શન સમયસમાપ્તિ ક્ષતિ!</string>
+    <string name="rate_error_text">ક્ષતિ!</string>
+
+    <string name="rate_intent_title_for_booking">મારી બુકિંગ સેવાઓ</string>
+    <string name="rate_intent_title_for_request">મારી વિનંતી સેવાઓ</string>
+
+
+    <string name="payments_title">પેમેન્ટ્સ</string>
+    <string name="payments_razor_pay_title">રેઝર પે</string>
+    <string name="payments_pay_pal_title">પે પાલ</string>
+    <string name="payments_visa_card_title">વિઝા કાર્ડ</string>
+    <string name="payments_master_card_title">માસ્ટર કાર્ડ</string>
+    <string name="payments_bitcoin_title">બીટકોઈન</string>
+    <string name="payments_apple_pay_title">એપ્પલ પે</string>
+    <string name="payments_google_pay_title">ગૂગલ પે</string>
+    <string name="payments_amazon_pay_title">એમેઝોન પે</string>
+    <string name="payments_cash_on_delivery_title">કૅશ પેમેન્ટ</string>
+    <string name="payments_not_available_toast_title">ચુકવણીનો આ વિકલ્પ હમણાં ઉપલબ્ધ નથી.</string>
+    <string name="payments_footer_title">૧૦૦% સલામત અને સુરક્ષિત ચુકવણી.</string>
+    <string name="payments_something_went_wrong_text">કંઈક ખોટું થયું!</string>
+
+</resources>

@@ -1,0 +1,298 @@
+<resources>
+
+    <string name="razor_pay_test_api_key">rzp_test_tzFDnjq19Rsqb1</string>
+    <string name="razor_pay_live_api_key"></string>
+
+    <string name="razor_pay_api_key">@string/razor_pay_test_api_key</string>
+
+    <string name="app_name">Sherbimet User</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Dashboard</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- splash text -->
+    <string name="no_internet_connection_splash">No Internet Connection!</string>
+    <string name="retry_button_splash">Retry</string>
+
+    <!-- login text -->
+    <string name="login_title">Login</string>
+    <string name="login_hello">Hello,</string>
+    <string name="login_description">Please enter your mobile number below on which you will receive otp.</string>
+    <string name="login_country_code_hint">+91</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="login_button_text">Request Otp</string>
+    <string name="login_mobile_empty_validation_error">Please provide a mobile number</string>
+    <string name="login_mobile_invalid_validation_error">Your mobile number must be at 10 digits long</string>
+    <string name="login_something_went_wrong_toast">Something Went Wrong Please Try Again Later!</string>
+
+
+    <!-- login otp verification text -->
+    <string name="login_otp_verification_title">Otp Verification</string>
+    <string name="login_otp_verification_description">Please enter 6 digit code that we have sent on following mobile number via sms to continue.</string>
+    <string name="login_otp_verification_all_fields_required">All fields of otp are required to verify. Please enter all fields and try again!</string>
+    <string name="login_otp_verification_no_intnernet_toast">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="login_otp_verification_resend_otp_in">Resend OTP SMS in</string>
+    <string name="login_otp_verification_did_not_received_otp">Did\'nt Received OTP? </string>
+    <string name="login_otp_verification_resend_otp">Resend OTP</string>
+    <string name="login_otp_verification_button">Verify OTP &amp; Login</string>
+
+
+    <!-- success message text -->
+    <string name="success_title">Success !</string>
+
+
+    <!-- no internet text -->
+    <string name="no_internet_title">Oh...!!</string>
+    <string name="no_internet_message">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="no_internet_retry_button">Retry</string>
+
+    <!-- error text -->
+    <string name="error_title">Oh...!!</string>
+
+
+    <!-- no search result text -->
+    <string name="no_search_result_title">Oops</string>
+
+
+    <!-- home text -->
+    <string name="home_intent_title_for_booking">My Service Bookings</string>
+    <string name="home_intent_title_for_request">My Service Requests</string>
+    <string name="home_no_internet_connection_toast">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="home_logout_title">Please Confirm</string>
+    <string name="home_logout_description">Are you sure want to logout from Sherbimet User?</string>
+    <string name="home_logout_yes_button">Yes</string>
+    <string name="home_logout_no_button">No</string>
+    <string name="home_something_went_wrong_toast">Something Went Wrong!</string>
+    <string name="home_booking_button">Booking</string>
+    <string name="home_request_button">Request</string>
+
+    <!-- navigation text -->
+    <string name="nav_service_bookings">My Service Bookings</string>
+    <string name="nav_service_requests">My Service Requests</string>
+    <string name="nav_chat">Chat with us</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_about">About Sherbimet</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- sub services text -->
+    <string name="sub_category_no_internet">Please Check Your Internet Connection &amp; Try Again Later!</string>
+
+
+    <!-- package details text -->
+    <string name="package_details_description_title">Package Details</string>
+    <string name="package_details_confirm_booking_button_title">Confirm Booking</string>
+
+    <!--Confirm Booking-->
+    <string name="add_booking_request_confirm_booking_title">New Service Booking Confirmation</string>
+    <string name="add_booking_request_package_details">Package Details</string>
+    <string name="add_booking_booking_date_input_text">Service Date</string>
+    <string name="add_booking_booking_time_input_text">Service Time</string>
+    <string name="add_booking_request_payment_method">Payment Method</string>
+    <string name="add_booking_request_how_do_you_want_to_pay">How do you want to pay?</string>
+    <string name="add_booking_request_payment_method_select_payment_method_text">Select Payment Method</string>
+    <string name="add_booking_request_payment_method_change_payment_method_text">Change Payment Method</string>
+    <string name="add_booking_booking_address_text">Address</string>
+    <string name="add_booking_booking_message_text">Message</string>
+    <string name="add_booking_booking_button_text">Book Now</string>
+    <string name="add_booking_validation_date_error_text">Please provide a date of service</string>
+    <string name="add_booking_validation_time_error_text">Please provide a time of service</string>
+    <string name="add_booking_validation_address_error_text">Please provide a service address</string>
+    <string name="add_booking_validation_message_error_text">Please provide a message</string>
+    <string name="add_booking_validation_package_error_text">Please select a package</string>
+    <string name="add_booking_validation_payment_method_error_text">Please select a payment method</string>
+    <string name="add_booking_razor_pay_error_text">Something went wrong while payment!</string>
+
+    <!-- book request row text -->
+    <string name="my_booking_request_list_text">My Service Requests</string>
+
+    <!-- book worker text -->
+    <string name="book_worker_date_of_service_hint">Date Of Service</string>
+    <string name="book_worker_time_of_service_hint">Time Of Service</string>
+    <string name="book_worker_address_hint">Address</string>
+    <string name="book_worker_message_hint">Message</string>
+    <string name="book_worker_payable_service_amount_text">Payable Service Amount</string>
+    <string name="book_worker_confirm_request_button_text">Confirm Request</string>
+    <string name="book_worker_confirm_booking_button_text">Confirm Booking</string>
+    <string name="book_worker_toolbar_title_for_request_text">New Service Request</string>
+    <string name="book_worker_toolbar_title_for_booking_text">New Service Booking</string>
+    <string name="book_worker_sub_title_for_request_text">New Service Request</string>
+    <string name="book_worker_sub_title_for_booking_text">New Service Booking For</string>
+    <string name="book_worker_no_internet_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="book_worker_something_went_wrong_toast_text">Something went wrong while new service! Please Try Again After Some Time</string>
+    <string name="book_worker_valdation_date_error_text">Please provide a date of service</string>
+    <string name="book_worker_valdation_time_error_text">Please provide a time of service</string>
+    <string name="book_worker_valdation_empty_message_error_text">Please provide a message</string>
+    <string name="book_worker_valdation_empty_address_error_text">Please provide a service address</string>
+    <string name="book_worker_network_error_text">Network Error!</string>
+    <string name="book_worker_no_connection_error_text">No Internet Connection To Server!</string>
+    <string name="book_worker_server_error_text">Server Error!</string>
+    <string name="book_worker_connection_timeout_error_text">Connection Timeout Error!</string>
+    <string name="book_worker_error_text">Error!</string>
+    <string name="book_worker_intent_title_for_booking">My Service Bookings</string>
+    <string name="book_worker_intent_title_for_request">My Service Requests</string>
+
+
+    <!-- book request row text -->
+    <string name="booking_request_list_row_service_details_text">Service Details</string>
+    <string name="booking_request_list_row_service_id_text">Service ID</string>
+    <string name="booking_request_list_row_service_scheduled_on_text">Service Scheduled On</string>
+    <string name="booking_request_list_row_service_of_text">Service Of</string>
+    <string name="booking_request_list_row_payment_method_text">Payment Method</string>
+    <string name="booking_request_list_row_service_address_text">Service Address</string>
+    <string name="booking_request_list_row_service_message_text">Service Message</string>
+    <string name="booking_request_list_row_payable_service_amount_text">Payable Service Amount</string>
+    <string name="booking_request_list_row_service_person_details_text">Service Person Details</string>
+    <string name="booking_request_list_row_service_person_name_text">Name</string>
+    <string name="booking_request_list_row_service_person_gender_text">Gender</string>
+    <string name="booking_request_list_row_service_person_mobile_text">Mobile</string>
+    <string name="booking_request_list_row_service_person_email_text">Email</string>
+    <string name="booking_request_list_row_service_cancel_reason_text">Cancel Reason</string>
+    <string name="booking_request_list_row_rate_service_button_text">Rate this Service</string>
+    <string name="booking_request_list_row_service_review_details_text">Review Details</string>
+    <string name="booking_request_list_row_service_review_details_rated_text">Rated</string>
+    <string name="booking_request_list_row_service_review_message_text">Message</string>
+    <string name="booking_request_list_row_service_cancel_button_text">Cancel Service</string>
+    <string name="booking_request_list_no_internet_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="booking_request_cancel_service_title_text">Please Confirm</string>
+    <string name="booking_request_cancel_service_message_text">Are you sure want to cancel this service ?</string>
+    <string name="booking_request_cancel_service_yes_button_text">Yes</string>
+    <string name="booking_request_cancel_service_no_button_text">No</string>
+
+
+    <!-- book request cancel dialog text -->
+    <string name="booking_request_cancel_dialog_title_text">Cancel Service</string>
+    <string name="booking_request_cancel_dialog_sub_title_text">Please let us know why do you want to cancel your service.Write your reason behind cancelling this service.</string>
+    <string name="booking_request_cancel_dialog_cancel_reason_hint">Cancellation Reason</string>
+    <string name="booking_request_cancel_dialog_cancel_reason_submit_button_text">Submit</string>
+    <string name="booking_request_cancel_dialog_cancel_reason_validation_error_text">Please provide reason for cancellation!</string>
+
+    <string name="cancel_service_network_error_text">Network Error!</string>
+    <string name="cancel_service_no_connection_error_text">No Internet Connection To Server!</string>
+    <string name="cancel_service_server_error_text">Server Error!</string>
+    <string name="cancel_service_connection_timeout_error_text">Connection Timeout Error!</string>
+    <string name="cancel_service_error_text">Error!</string>
+
+
+    <!-- profile text -->
+    <string name="profile_toolbar_title_text">My Profile</string>
+    <string name="profile_first_name_hint">First Name</string>
+    <string name="profile_middle_name_hint">Middle Name</string>
+    <string name="profile_last_name_hint">Last Name</string>
+    <string name="profile_email_hint">Email</string>
+    <string name="profile_country_code_text">+91</string>
+    <string name="profile_mobile_number_hint">Mobile Number</string>
+    <string name="profile_gender_text">Gender :</string>
+    <string name="profile_rb_male_text">Male</string>
+    <string name="profile_rb_female_text">Female</string>
+    <string name="profile_preferred_language_hint">Preferred Language</string>
+    <string name="profile_address_line_1_hint">Address Line 1</string>
+    <string name="profile_address_line_2_hint">Address Line 2</string>
+    <string name="profile_city_hint">City</string>
+    <string name="profile_pincode_hint">Pincode</string>
+    <string name="profile_save_profile_details_button_text">Save Profile Details</string>
+    <string name="profile_no_internet_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="profile_address_line_2_validation_error_text">Please provide a address line 2</string>
+    <string name="profile_address_line_1_validation_error_text">Please provide a address line 1</string>
+    <string name="profile_pincode_validation_error_text">Please Select Pincode</string>
+    <string name="profile_city_validation_error_text">Please Select City</string>
+    <string name="profile_preferred_language_validation_error_text">Please Select Preferred Language</string>
+    <string name="profile_email_not_valid_validation_error_text">Please provide a valid email</string>
+    <string name="profile_email_empty_validation_error_text">Please provide an email</string>
+    <string name="profile_first_name_validation_error_text">Please provide a first name</string>
+    <string name="profile_middle_name_validation_error_text">Please provide a middle name</string>
+    <string name="profile_last_name_validation_error_text">Please provide a last name</string>
+
+    <string name="profile_picture_option_dialog_toolbar_title_text">Select One Option</string>
+    <string name="profile_picture_option_dialog_gallery_text">Choose Image \nfrom Gallery</string>
+    <string name="profile_picture_option_dialog_camera_text">Open Camera \nand Capture</string>
+    <string name="profile_picture_option_dialog_button_text">Select Option &amp; Proceed</string>
+
+    <string name="profile_something_went_wrong_toast_text">Oops! Something Went Wrong.</string>
+    <string name="profile_please_select_one_option_toast_text">Please Select At Least One Option!</string>
+    <string name="profile_something_went_wrong__try_again_toast_text">Something went wrong please try again later!</string>
+    <string name="profile_capture_uri_not_found_toast_text">Capture image uri not found</string>
+
+    <string name="profile_city_selection_error_toast_text">Oops! Something Went Wrong While Selection of the City!</string>
+    <string name="profile_pincode_selection_error_toast_text">Oops! Something Went Wrong While Selection of the Pincode!</string>
+    <string name="profile_preferred_language_selection_error_toast_text">Oops! Something Went Wrong While Selection of the Preferred Language!</string>
+
+    <string name="profile_something_went_wrong_while_saving_profile_changes_toast_text">Something went wrong while saving profile changes! Please Try Again After Some Time</string>
+
+    <!-- about text -->
+    <string name="about_no_internet_connection_toast">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="about_toolbar_title_text">About Sherbimet</string>
+
+    <!-- city text -->
+    <string name="city_toolbar_title_text">Cities</string>
+    <string name="city_search_hint">Search by city name</string>
+    <string name="city_something_went_wrong_message">Something Went Wrong!</string>
+
+    <!-- pincode text -->
+    <string name="pincode_toolbar_title_text">Pincode</string>
+    <string name="pincode_search_hint">Search by pincode</string>
+    <string name="pincode_something_went_wrong_message">Something Went Wrong!</string>
+
+    <!-- preferred language text -->
+    <string name="preferred_language_toolbar_title_text">Preferred Language</string>
+    <string name="preferred_language_search_hint">Search by preferred language name</string>
+    <string name="preferred_language_something_went_wrong_message">Something Went Wrong!</string>
+
+    <!-- choose area text -->
+    <string name="choose_area_toolbar_title_text">Choose Your Area</string>
+    <string name="choose_area_area_not_found_text">Something went wrong!</string>
+
+
+    <!-- rate review text -->
+    <string name="rate_review_toolbar_title_text">Rate &amp; Review Service</string>
+    <string name="rate_reviewing_service_as_text">Reviewing Service As</string>
+    <string name="rate_reviewing_description_text">Tell others what you think about this service.\nWould you recommend it, and why?</string>
+    <string name="rate_review_hint">Review</string>
+    <string name="rate_submit_review_button_hint">Submit</string>
+    <string name="rate_no_internet_toast">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="rate_ratings_validation_error_text">Please provide valid ratings!</string>
+    <string name="rate_ratings_empty_validation_error_text">Please provide review message!</string>
+
+
+    <string name="rate_network_error_text">Network Error!</string>
+    <string name="rate_no_connection_error_text">No Internet Connection To Server!</string>
+    <string name="rate_server_error_text">Server Error!</string>
+    <string name="rate_connection_timeout_error_text">Connection Timeout Error!</string>
+    <string name="rate_error_text">Error!</string>
+
+    <string name="rate_intent_title_for_booking">My Service Bookings</string>
+    <string name="rate_intent_title_for_request">My Service Requests</string>
+
+
+
+    <string name="payments_title">Payments</string>
+    <string name="payments_razor_pay_title">Razorpay</string>
+    <string name="payments_pay_pal_title">PayPal</string>
+    <string name="payments_visa_card_title">Visa Card</string>
+    <string name="payments_master_card_title">Master Card</string>
+    <string name="payments_bitcoin_title">Bitcoin</string>
+    <string name="payments_apple_pay_title">Apple Pay</string>
+    <string name="payments_google_pay_title">Google Pay</string>
+    <string name="payments_amazon_pay_title">Amazon Pay</string>
+    <string name="payments_cash_on_delivery_title">Cash Payment</string>
+    <string name="payments_not_available_toast_title">This payment option is not available at this moment</string>
+    <string name="payments_footer_title">100% safe and secure payments.</string>
+    <string name="payments_something_went_wrong_text">Something went wrong!</string>
+
+</resources>
+

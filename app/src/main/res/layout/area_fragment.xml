@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/layoutfilter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@drawable/toolbar_bg"
+        android:weightSum="5"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/citytitle"
+            android:layout_width="0dp"
+            android:layout_weight="4.2"
+            android:layout_height="match_parent"
+            android:text="@string/choose_area_toolbar_title_text"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:gravity="left|center"
+            android:paddingLeft="16dp" />
+
+        <RelativeLayout
+            android:id="@+id/iVClose"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_close_24"
+                app:tint="@color/colorPrimary"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewlinefilter"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e1e1e1"
+        android:layout_below="@+id/layoutfilter" />
+
+    <RelativeLayout
+        android:id="@+id/searcharealayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/viewlinefilter"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_grey"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchViewarea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:queryBackground="@android:color/transparent"
+            app:submitBackground="@android:color/transparent"
+            style="@style/myEdittext" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rVArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:scrollbars="vertical"
+        android:visibility="visible"
+        android:verticalScrollbarPosition="right"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        android:scrollbarSize="1.5dp"
+        android:layout_below="@+id/searcharealayout"
+        android:background="@android:color/white"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/tvNoAreaFound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_area_area_not_found_text"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
